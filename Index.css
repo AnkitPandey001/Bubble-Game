@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at -3.1% -4.3%, rgb(57, 255, 186) 0%, rgb(21, 38, 82) 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pannel {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#p-top {
+
+  width: 100%;
+  height: 10%;
+  background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);
+  display: flex;
+  padding: 0 30%;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.elem h2 {
+  font-weight: 300;
+}
+.box {
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  color: #000;
+  font-weight: 600;
+  font-size: 25px;
+}
+ 
+#p-bottom {
+  padding: 20px;
+  width: 100%;
+  height: 90%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ gap: 20px;
+ flex-wrap: wrap;
+}
+.bubble {
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle at 49.8% 44.4%, rgb(251, 230, 59) 0%, rgb(161, 255, 63) 90%);
+  color: #028be0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.bubble:hover{
+    background-color: rgb(50, 75, 50);
+    cursor: pointer;
+}
